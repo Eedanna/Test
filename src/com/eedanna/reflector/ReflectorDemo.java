@@ -12,7 +12,7 @@ public class ReflectorDemo {
 		// TODO Auto-generated method stub
 		
 		Method[] methods = ReflectorDemo.class.getMethods();
-
+		 System.out.println("length >> "+methods.length);
 		for(Method method : methods){
 		    System.out.println("method = " + method.getName());
 		}
